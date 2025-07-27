@@ -1,23 +1,57 @@
 
+
+
+
+
+// #include <iostream>
+// using namespace std;
+
+// class Vehicle {
+//   public:
+//     string brand = "Ford";
+//     void honk() {
+//       cout << "Tuut, tuut! \n" ;
+//     }
+// };
+
+// class Car: public Vehicle {
+//   public:
+//     string model = "Mustang";
+// };
+
+
+// int main(){
+//     Car myCar;
+//     myCar.honk();
+//     cout << myCar.brand << myCar.model << endl;
+//     return 0 ; 
+// }
+
+
+
+
 #include <iostream>
 using namespace std;
 
-class Vehicle {
-  public:
+
+class Vehicle{
+    public:
     string brand = "Ford";
-    void honk() {
-      cout << "Tuut, tuut! \n" ;
-    }
+        void honk(){
+            cout << "Tuut , Tuut " << endl;
+
+        }
+
 };
 
-class Car: public Vehicle {
-  public:
+class Car: public Vehicle{
+    public:
     string model = "Mustang";
-};
 
+};
 
 int main(){
-    Car myCar;
+    Car myCar ; 
     myCar.honk();
     cout << myCar.brand << myCar.model << endl;
     return 0 ; 
